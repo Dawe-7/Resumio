@@ -1,0 +1,140 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Resume Maker">
+    <meta name="keywords" content="Simple Resume Creator">
+    <meta name="author" content="Daniel Dawe">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+<section class="header">
+   <nav>
+      <a href = "index.html"> <img src="logo.png" class="logo"></a>
+      <div class="navbar" id="navBar">
+      <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul> 
+            <li><a href="create.html">Create</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </div>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+    <div class="content">
+        <h3>RESUME CREATION HAS NEVER BEEN THIS EASY</h3>
+        <P>Empower yourself by creating topnotch resumes. <br>From unemployed to employer!!</br> </P>
+            <a href="login.html"><button type="button"><span></span>LOGIN</button></a>
+            <a href="register.html"><button type="button"><span></span>REGISTER</button></a>
+    </div>
+</section>
+
+<!-------Services------->    
+<section class="services">
+     <h2>Services</h2>
+     <div class="servicesp1"></div>
+     <p1>When seeking for a Job, the last thing you want to worry about is not having a CV and making one is easier said than done. <br><br> With Resumio creating your resume/CV is simply automated with our easy to use tools. 
+        Resumio gives Job seekers a wide range of templates and resume covers that will knock employers out of the park.</p1></div>
+
+<div class="row1">
+        <div class="services-col">
+            <h3>RESUME/CV</h3>
+            <P>
+                Resumio offers users a wide range of templates created with the sole focus on impressing employers. 
+                Because our templates are designed by a team of the best designers, they showcase to employers the time and effort taken to create them and with this in thought they can easily tell you are the employeee they need.
+            </P>
+        </div>
+    <div class="services-col">
+        <h3>COVER LETTERS</h3>
+        <P>
+            Resumio offers users intuitive cover letters created with the sole focus on making you look presentable as it's the first thing employers view.  
+        </P>
+
+    </div>
+    <div class="services-col">
+        <h3>MINUTES</h3>
+        <P>
+            With Resumio, you can easily record all the proceedings of minutes held.  
+        </P>
+
+    </div>
+</div>
+
+<div class="row2">
+    <div class="services-col">
+        <h3>APPLICATION LETTERS</h3>
+        <P>
+            Resumio offers users intuitive application letters for jobs seekers.  
+        </P>
+
+    </div>
+    <div class="services-col">
+        <h3>PERSONAL DIARY</h3>
+        <P>
+            Make that attractive personal diary with resumio which feels like your own world.
+        </P>
+
+    </div>
+    <div class="services-col">
+        <h3>SCHOOL DIARY</h3>
+        <P>
+            Resumio offers users with the ability to create school diary designs that are impressive and thoughtful.  
+        </P>
+
+    </div>
+</div>
+</section>
+
+<!-------Some of our templates-------> 
+<section class="templates">
+    <h1>Some of our templates</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="templates-col">
+            <img src="template2.png">
+        </div>
+    </div>
+
+</section>
+
+
+<!-------About us-------> 
+<section class="about">
+    <div class="container">
+     <h1>About us</h1>
+       <div class="row services">
+           <div class="col-md-3 text-center">
+               <div class="icon>">
+                <i class="fa-solid fa-magnifying-glass-plus"></i>
+               </div>
+               
+               <p>With a job market flooded with unemployed graduates and human resource departments overburdened, our company is here to provide an easier way for recruiters to get that office work done in the shortest amount of time possible. Graduates can also fill out the qualification details and our attractive but professional CV templates.
+                We are giving people who are unable to write professional letters, despite their achievements, a chance in the job market by providing a wide range of application and cover letter templates. With a wide range of products, we are confident that this is a tool that will assist you in your day-to-day office activities.
+                </p>
+           </div>
+       </div>
+<!-------How it Works-------> 
+
+
+<!-------Footer-------> 
+
+<!-------JavaScript for Toggle Menu------->
+<script>
+    var navBar = document.getElementById("navBar");
+    function showMenu(){
+        navBar.style.right = "0";
+    }
+    function hideMenu(){
+        navBar.style.right = "-200px"
+    }
+</script>  
+
+</body>
+</html>
