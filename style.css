@@ -224,27 +224,24 @@ h3{
 }
 
 /*--------Some of our templates------*/
-.templates{
+templates{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.templates{
+templates{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.templates img{
-    width: 100%;
 
-}
 
 
 /*--------About us------*/
-.about{
+.footer{
     background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(about.png);
     background-size: cover;
     background-position: center;
@@ -254,13 +251,13 @@ h3{
     padding-bottom: 80px;
 
 }
-.about h1{
+.footer h1{
     text-align: center;
     color: #efefef;
     padding-bottom: 10px;
 
 }
-.about h1::after{
+.footer h1::after{
     content: '';
     background: #efefef;
     display: block;
